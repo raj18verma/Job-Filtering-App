@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import spacy
 from spacy import displacy
-nlp=spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_sm')
 import nltk
 nltk.download("popular")
 nltk.download('stopwords')
