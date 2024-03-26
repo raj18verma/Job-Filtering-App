@@ -13,10 +13,10 @@ def get_requirements(file_path:str)->list[str]:
 
 
 setup(
-    name='Job_Recommendation_System',
+    name='Job_Filtering_App',
     version='0.0.1',
-    author='Abbas Behrainwala',
-    author_email='abbasbehrain95@gmail.com',
+    author='Raj Verma',
+    author_email='rajvermasja18@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 
