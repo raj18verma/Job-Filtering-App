@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import spacy
-spacy.load(r'en_core_web_sm')
+spacy.load('en_core_web_sm')
 import nltk
 nltk.download("popular")
 nltk.download('stopwords')
