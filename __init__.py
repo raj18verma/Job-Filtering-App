@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import spacy
-spacy.load(r'c:\users\rajve\appdata\local\packages\pythonsoftwarefoundation.python.3.12_qbz5n2kfra8p0\localcache\local-packages\python312\site-packages\en_core_web_sm\en_core_web_sm-3.7.1')
+from spacy import displacy
+nlp = spacy.load('en_core_web_sm')
 import nltk
 nltk.download("popular")
 nltk.download('stopwords')
